@@ -42,7 +42,6 @@ export const loadRecipe = async function (id) {
 		} else {
 			state.recipe.bookmarked = false;
 		}
-		console.log(state.recipe);
 	} catch (err) {
 		// temp error handling
 		console.error(`${err}`);
